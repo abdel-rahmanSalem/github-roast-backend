@@ -20,7 +20,7 @@ const limiter = rateLimit({
 });
 
 const port = process.env.PORT;
-const FRONTEND_URL = process.env.FRONTEND_URL;
+const FRONTEND_URL = "http://localhost:5174";
 const allowedOrigins = [FRONTEND_URL];
 const corsOptions = {
   origin: function (
